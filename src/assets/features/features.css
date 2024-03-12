@@ -1,0 +1,122 @@
+.work-container_team_features{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #b9feee;
+    background: -webkit-radial-gradient(
+      circle,
+      #95ffe6 0%,
+      #d0f9ff 50%,
+      #ffffff 100%
+    );
+    background: radial-gradient(circle, #c3fff1 0%, #d0f9ff 50%, #ffffff 100%);
+    padding-top: 10vh;
+}
+
+.spac{
+    padding-top: 3rem;
+    justify-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.temp_heading_team_front{
+    justify-items: center;
+    align-self: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 25px;
+    background-color:#b9b9b9;
+    border: 2px solid #858585;
+    border-radius: 5px;
+    width: 400px;
+    height: 45px;
+    -webkit-box-shadow: inset -0.5px -3px 10px 3px #ffffff;
+-moz-box-shadow: inset -0.5px -3px 10px 3px #7ab4f7;
+box-shadow: inset -0.5px -3px 10px 3px #000000;
+}
+
+.project-container_team{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+}
+
+.project-card_team_front{
+    background: black;
+    padding: 1.2rem 1rem;
+    background:rgb(255, 255, 255);
+    border-radius: 10px;
+    height:380px;
+    width: 230px;
+    box-shadow: 0px 1px 10px 1px black;
+    text-align: center;
+    -webkit-box-shadow: -0.5px -3px 10px 3px #000000;
+    -moz-box-shadow: -0.5px -3px 10px 3px #000000;
+    box-shadow: -0.5px -3px 10px 3px #000000;
+}
+.project-card_team_front:hover{
+    background:rgb(198, 199, 255);
+}
+
+.project-card_team_front img{
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+
+.project-title_team,.project-duration_team{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.pro-details_team p{
+    padding-bottom: 1rem;
+    font-size:1.1rem;
+    text-align:center;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.pro-btns_team{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.pro-btns_team .btn_team{
+    padding: 0.5rem 1rem;
+}
+.btn_team{
+    padding: 12px 32px;
+    font-size: 1 rem;
+    text-decoration: uppercase;
+    background: rgb(113, 106, 160);
+    color: black;
+    border: px solid rgb(0, 0, 0);
+    font-weight: 600;
+    cursor:pointer;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+  } 
+
+
+  @media screen and (max-width:980px) {
+    .project-container_team{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (max-width:750px) {
+    .project-container_team{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:500px) {
+    .project-container_team{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
