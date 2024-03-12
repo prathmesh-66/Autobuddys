@@ -1,13 +1,11 @@
 import React from "react";
 import "./frontview.css";
 import Bg from "../frontview/images/image_bg2.png";
-import Design from "../frontview/images/bg2.png";
 import linkedinlogo from "./images/linkedin_logo.png"
 
 import { Link } from "react-router-dom";
 
 const frontview = () => {
-  const link = 'https://elderly.autobuddys.in/dashboard/app';
   const link2='https://www.linkedin.com/company/autobuddys-an-intelligent-life-companion-research-project-for-autism-and-elderly/'
   return (
     <>
