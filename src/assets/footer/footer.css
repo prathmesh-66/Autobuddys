@@ -16,3 +16,16 @@ a{
     text-decoration: none;
     color: white;
 }
+@media screen and (max-width:1000px) {
+    .footer_start{
+        font-size: 1.5vw;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .footer_start{
+        font-size: 2.5vw;
+        width: auto;
+    }
+}

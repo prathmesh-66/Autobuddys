@@ -90,7 +90,7 @@
     
 }
 
-@media screen and (max-width:1080px) {
+@media screen and (max-width:1330px) {
     .autism_part1{
         flex-direction:column;
     }
@@ -105,34 +105,35 @@
         padding-left: 2vh;
         align-self: center;
     }
-    .autism_part2_img img{
-        margin-left: 1vw;
-        margin-right: 1vw;
-    }
-    .autism_part2_img{
-        width: 100%;
-        padding-left: 1vw;
-        padding-right: 1vw;
-    }
-    
-  }
-
-  @media screen and (max-width:1080px) {
     .autism_part2{
         text-align: center;
         display: flex;
         flex-direction:column;
     }
-    .autism_part2_buttons_img{
-        display: flex;
-        flex-direction: row;
+    
+    .autism_part2_img{
+        width: 100%;
+        padding-left: 1vw;
+        padding-right: 1vw;
 
-        
     }
     .autism_part2_img img{
+        margin-left: 1vw;
+        margin-right: 1vw;
         margin-top:2rem;
         align-self: center;
     }
+    
+    .autism_part2_buttons_img{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+  }
+
+  @media screen and (max-width:1080px) {
+    
     
   
   }

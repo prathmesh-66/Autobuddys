@@ -6,14 +6,14 @@ import Teamcardata from "./teamcardata"
 const team = () => {
   return (
     <div className="work-container_team_autobuddys">
-    <div className='spac'>
-        <div className="temp_heading_team">
+    <div className='spac_autobuddys'>
+        <div className="temp_heading_team_autobuddys">
           Team Members
         </div>
         </div>
-        <div className='spcaee'>
-      <div className="project-heading_team">
-        <div className="project-container_team">
+        <div className='spcaee_autobuddys'>
+      <div className="project-heading_team_autobuddys">
+        <div className="project-container_team_autobuddys">
           {Teamcardata.map((val,ind)=>{
             return(
                 <Teamcard

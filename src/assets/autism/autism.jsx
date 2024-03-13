@@ -8,8 +8,12 @@ import Img2 from "./images/img2.jpg"
 import Img3 from "./images/img3.jpg"
 import Img4 from "./images/img4.jpg"
 import Autism_img from "./images/autism_img.png"
+import { Link } from "react-router-dom";
 
 const autism = () => {
+  const link2 = 'https://play.google.com/store/apps/details?id=com.aim4u.autobuddys';
+  const link3 = 'https://apps.apple.com/us/app/autobuddys/id6476968391';
+  const link4 = 'https://apps.mgov.gov.in/details?appid=2173'
   return (
     <div className='autism_start'>
       <div className='autism_part1'>
@@ -34,9 +38,10 @@ AutoBuddys, an innovative educational application, contributes to this inclusivi
         <div className='autism_part2_buttons'>
           <div className='autism_part2_buttons_heading'>Download Now</div>
           <div className='autism_part2_buttons_img'>
-            <img src={Playstore}/>
-            <img src={Mseva}/>
-            <img src={Apple}/>
+
+            <Link to={link2}><img src={Playstore} alt='logo_autism'/></Link>
+            <Link to={link3}><img src={Apple} alt='logo_autism'/></Link>
+            <Link to={link4}><img src={Mseva} alt='logo_autism'/></Link>
           </div>
         </div>
       </div>

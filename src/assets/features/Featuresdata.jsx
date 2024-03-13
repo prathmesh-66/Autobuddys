@@ -3,6 +3,7 @@ import pro1 from "../features/images/hardware.jpg"
 import pro2 from "../features/images/fall1.jpeg"
 import pro3 from "../features/images/app1.jpeg"
 import pro4 from "../features/images/visit.jpeg"
+import pro5 from "../features/images/exibition.jfif"
 
 const teamcardata = [
     {
@@ -25,6 +26,13 @@ const teamcardata = [
         title:"Visit to AWMH",
         text:"Our first visit to AWMH on 09/06/22.With Therapist Dr. Vaishali Kolhe, we had a discussion on the personality development of autistic children",
     },
+    {
+        imgsrc:pro5,
+        title:"Participated in Exhibition",
+        text:"The AutoBuddys Team actively participated in Smart Innovation Exhibition 2024, an inspiring event organized by Vivekanand Education Society's Business School.",
+    }
+    
+    
 
 
 ];
