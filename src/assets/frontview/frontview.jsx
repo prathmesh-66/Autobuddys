@@ -2,7 +2,7 @@ import React from "react";
 import "./frontview.css";
 import Bg from "../frontview/images/image_bg2.png";
 import linkedinlogo from "./images/linkedin_logo.png"
-
+import AdsComponent from "../ads/adsence"
 import { Link } from "react-router-dom";
 
 const frontview = () => {
@@ -32,7 +32,9 @@ const frontview = () => {
         </div>
         </div>
       </div>
-     
+      <div className="ads">
+      <AdsComponent dataAdSlot="5462535426" />
+     </div>
     </>
   );
 };

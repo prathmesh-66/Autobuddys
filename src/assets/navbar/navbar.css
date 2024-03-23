@@ -42,4 +42,11 @@
   
   /* Adjust the margin of the last nav-item to prevent extra space */
 
-  
+  @media screen and (max-width:425px) {
+    .navbar_logo img{
+      max-width: 100%;
+      height: 40px;
+      width: 160px;
+      
+  }
+}

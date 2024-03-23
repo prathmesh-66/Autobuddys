@@ -154,7 +154,7 @@ const teamcardata = [
     {
         imgsrc:pro22,
         title:"Prathmesh Gorad",
-        text:"Frontend Developer",
+        text:"FullStack Developer",
         linkedin:"https://www.linkedin.com/in/prathmesh-gorad-1779a3207/",
     },
 
