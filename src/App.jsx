@@ -23,7 +23,6 @@ function App() {
           <Route path="/team" element={<Team/>} />
           <Route path="/autism" element={<Autism/>} />
           <Route path="/elderly" element={<Elderly/>} />
-          <Route path="/temperory" element={<Temperory/>} />
           
         </Routes>
       </Router>

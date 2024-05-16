@@ -36,12 +36,12 @@ const teamcardata = [
     {
         imgsrc:pro6,
         title:"Visit on 2nd AWMH",
-        text:"Autobuddys for children's with ASD received great comments during the visit to AWMH, demonstrating how well it engages the children's. More improvements will be fueled by feedback from educators and parents, showcasing a dedication to creativity and inclusivity in the care of children's from the autism spectrum.",
+        text:"AutoBuddys for children with ASD received great feedback at AWMH. Future improvements will come from educator and parent feedback, highlighting creativity and inclusivity."
     },
     {
         imgsrc:pro7,
-        title:"AutoBuddys Team Working",
-        text:"AutoBuddys dedicated team is currently focused on developing an advanced health monitoring system with integrated fall detection capabilities. Our goal is to provide innovative solutions that prioritize safety and well-being.",
+        title:"AutoBuddys Team",
+        text:"AutoBuddys team is currently focused on developing advanced health monitoring system with fall detection capabilities, aiming to enhance safety and well-being.",
     },
     
 

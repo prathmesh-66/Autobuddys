@@ -47,9 +47,6 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link className="nav-link" to="/team" onClick={toggleNavbar}>Team</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/temperory" onClick={toggleNavbar}>Temperory</Link>
-              </li>
             </ul>
           </div>
         </div>
