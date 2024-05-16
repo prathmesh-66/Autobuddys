@@ -1,0 +1,39 @@
+/* Teammate.css */
+.teammate {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(207, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #0077b5;
+  }
+  
+  .teammate img {
+    border-radius: 50%;
+    max-width: 100px;
+  }
+  
+  .teammate h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .teammate a {
+    display: block;
+    color: #0077b5;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .teammate a:hover {
+    color: #004471;
+  }
+  
+  .teammate:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
